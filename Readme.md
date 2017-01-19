@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алекс](https://up.htmlacademy.ru/htmlcss/16/user/293939).
-* Наставник: `Филипп Шамсиев`.
+* Наставник: [Филипп](https://up.htmlacademy.ru/htmlcss/16/user/70260).
 
 ---
 
