@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
         <nav class="main-navigation">
-          <ul>
+          <ul class="navigation-items">
             <li class="main-navigation-item">
               <a class="main-navigation-link" href="#">Информация</a>
             </li>
@@ -26,76 +26,74 @@
             </li>
           </ul>
         </nav>
-        <div class="main-header-logo">
-          <a href="index.html">
-            <img src="img/logo.png" width="139" height="71" alt="City of Sedona"/>
-          </a>
-        </div>
+        <a class="main-header-logo" href="index.html">
+          <img class="header-logo" src="img/logo_main.png" alt="" width="138" height="70"/>
+        </a>
       </div>
     </header>
     <main class="container">
       <section class="jumbotron">
-        <img class="jumbotron-copy" src="img/jumbotron-copy.png" alt="Wellcome to the georgeous Sedona" width="460" height="356"/>
-        <img class="jumbotron-bottom" src="img/jumbotron-bottom.png" alt="" width="1200" height="60"/>
+        <img class="jumbotron-copy" src="img/jumbotron_message.png" alt="Wellcome to the georgeous Sedona" width="458" height="352"/>
+        <img class="jumbotron-bottom" src="img/jumbotron_mask.png" alt="" width="1200" height="57"/>
       </section>
       <section class="description">
-        <h1>Седона – небольшой городок в аризоне,<br>заслуживающий большего!</h1>
+        <h1>Седона – небольшой городок в аризоне, заслуживающий большего!</h1>
         <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </section>
       <section class="main-features-item">
         <div class="main-features-item-blue">
-          <h2>Настоящий<br>городок</h2>
+          <h2>Настоящий городок</h2>
           <p>– №1 –</p>
           <p>Седона – не аттракцион для туристов, там течет своя жизнь</p>
         </div>
         <div class="main-features-item-image">
-          <img src="img/main-features-item-image-1.jpg" alt="Город, где течет своя жизнь." width="800" height="256"/>
+          <img src="img/features_img1.jpg" alt="Город, где течет своя жизнь." width="800" height="256"/>
         </div>
       </section>
       <section class="service">
         <div class="service-item">
           <div class="service-item-image"></div>
           <h2>Жилье</h2>
-          <p>Рекомендуем пожить в настоящем<br>мотеле, все как в кино!</p>
+          <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
         <div class="service-item">
           <div class="service-item-image"></div>
           <h2>Еда</h2>
-          <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+          <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </div>
         <div class="service-item">
           <div class="service-item-image"></div>
           <h2>Сувениры</h2>
-          <p>Не только китайского, но и местного<br>производства!</p>
+          <p>Не только китайского, но и местного производства!</p>
         </div>
       </section>
       <section class="main-features-item">
         <div class="main-features-item-image">
-          <img src="img/main-features-item-image-2.jpg" alt="Панорама каньона." width="800" height="256"/>
+          <img src="img/features_img2.jpg" alt="Панорама каньона." width="800" height="256"/>
         </div>
         <div class="main-features-item-blue">
-          <h2>Там есть<br>мост дьявола</h2>
+          <h2>Там есть мост дьявола</h2>
           <p>– №2 –</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </div>
       </section>
       <section class="main-features-item">
         <div class="main-features-item-grey">
-          <h2>Небольшая<br>площадь</h2>
+          <h2>Небольшая площадь</h2>
           <p>– №3 –</p>
           <p>Все достопримечательности находятся очень близко</p>
         </div>
       </section>
       <section class="main-features-item">
         <div class="main-features-item-grey">
-          <h2>Красивая<br>дорога</h2>
+          <h2>Красивая дорога</h2>
           <p>– №4 –</p>
           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
       </section>
       <section class="main-features-item">
         <div class="main-features-item-grey">
-          <h2>Мало<br>туристов</h2>
+          <h2>Мало туристов</h2>
           <p>– №5 –</p>
           <p>Большинство едет в гранд-каньон и толпится там</p>
         </div>
@@ -137,22 +135,20 @@
           </div>
           <button class="main-booking-form-find-btn" type="submit" name="button">Найти</button>
         </form>
-        <iframe src="" width="" height=""></iframe>
+        <div class="main-map">
+          <img class="map-placeholder" src="img/map_placeholder.jpg" alt="Карта Седоны" width="1200" height="593"/>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
-      <div class="container">
-        <div class="footer-hashtag">
-          <a href="#">#visitsedona</a>
-        </div>
-        <div class="footer-social">
-          <a class="btn social-btn-vk" href="#">Вконтакте</a>
-          <a class="btn social-btn-fb" href="#">Фейсбук</a>
-          <a class="btn social-btn-inst" href="#">Инстаграм</a>
-        </div>
-        <div class="footer-copyright">
-          <a href="https://htmlacademy.ru/"><span>Website by</span></a>
-        </div>
+      <span class="footer-hashtag">#visitsedona</span>
+      <div class="footer-social">
+        <a class="btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="btn social-btn-inst" href="#">Инстаграм</a>
+      </div>
+      <div class="footer-copyright">
+        <span>Website by</span><a href="https://htmlacademy.ru/"></a>
       </div>
     </footer>
   </body>
