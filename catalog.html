@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -36,7 +36,7 @@
           <section class="main-filter">
             <form class="filter-forms" action="#" method="post">
               <div class="filter-forms-checkbox">
-                <h2>Инфраструктура:</h2>
+                <h2 class="main-headline">Инфраструктура:</h2>
                 <input type="checkbox" name="pool" value="Бассейн" id="checkbox-pool" checked>
                 <label for="checkbox-pool">Бассейн</label>
                 <input type="checkbox" name="parking" value="Парковка" id="checkbox-parking" checked>
@@ -45,7 +45,7 @@
                 <label for="checkbox-wifi">Wi-Fi</label>
               </div>
               <div class="filter-forms-checkbox">
-                <h2>Тип жилья:</h2>
+                <h2 class="main-headline">Тип жилья:</h2>
                 <input type="checkbox" name="hotel" value="Гостиница" id="checkbox-hotel" checked>
                 <label for="checkbox-hotel">Гостиница</label>
                 <input type="checkbox" name="motel" value="Мотель" id="checkbox-motel" checked>
@@ -54,12 +54,12 @@
                 <label for="checkbox-apartments">Апартаменты</label>
               </div>
               <div class="filter-forms-price">
-                <h2>Стоимость в сутки:</h2>
+                <h2 class="main-headline">Стоимость в сутки:</h2>
                 <div class="price-range">
-                  <input type="text" name="range-from" value="0" id="range-from">
                   <label for="range-from">От</label>
-                  <input type="text" name="range-till" value="4000" id="range-till">
+                  <input type="text" name="range-from" value="0" id="range-from">
                   <label for="range-till">До</label>
+                  <input type="text" name="range-till" value="4000" id="range-till">
                 </div>
                 <div class="price-slider">
                   <div class="slider-bar"></div>
@@ -75,7 +75,7 @@
               Найдено: 3
             </div>
             <ul class="ouptup-summary-list">
-              <li>Сортировка:</li>
+              <li class="ouptup-summary-item">Сортировка:</li>
               <li class="ouptup-summary-item">
                 <a class="active" href="#">По цене</a>
               </li>
@@ -101,22 +101,20 @@
                 <img src="img/amara_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2>
+                <h2 class="main-headline">
                   <a href="#">Amara resort &#38; spa</a>
                 </h2>
-                <div class="list-item-details-type">
-                  <p>Гостиница</p>
+                <div class="list-item-details">
+                  <p class="main-copy">Гостиница</p>
                   <a class="result-btn"href="#">Подробнее</a>
                 </div>
-                <div class="list-item-details-cost">
-                  <p>От 3500 р.</p>
+                <div class="list-item-details">
+                  <p class="main-copy">От 3500 р.</p>
                   <a class="result-btn"href="#">Забронировать</a>
                 </div>
               </div>
               <div class="result-list-rating">
-                <div class="rating-stars">
-                  <span class="stars-icon"></span>
-                </div>
+                <div class="rating-stars"></div>
                 <div class="rating-description">
                   Рейтинг: 8,5
                 </div>
@@ -127,22 +125,20 @@
                 <img src="img/desert_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2>
+                <h2 class="main-headline">
                   <a href="#">Desert quail inn</a>
                 </h2>
-                <div class="list-item-details-type">
-                  <p>Мотель</p>
+                <div class="list-item-details">
+                  <p class="main-copy">Мотель</p>
                   <a class="result-btn"href="#">Подробнее</a>
                 </div>
-                <div class="list-item-details-cost">
-                  <p>От 2000 р.</p>
+                <div class="list-item-details">
+                  <p class="main-copy">От 2000 р.</p>
                   <a class="result-btn"href="#">Забронировать</a>
                 </div>
               </div>
               <div class="result-list-rating">
-                <div class="rating-stars">
-                  <span class="stars-icon"></span>
-                </div>
+                <div class="rating-stars"></div>
                 <div class="rating-description">
                   Рейтинг: 8,9
                 </div>
@@ -153,22 +149,20 @@
                 <img src="img/villas_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2>
+                <h2 class="main-headline">
                   <a href="#">Villas at Poco Diablo</a>
                 </h2>
-                <div class="list-item-details-type">
-                  <p>Апартаменты</p>
+                <div class="list-item-details">
+                  <p class="main-copy">Апартаменты</p>
                   <a class="result-btn"href="#">Подробнее</a>
                 </div>
-                <div class="list-item-details-cost">
-                  <p>От 4000 р.</p>
+                <div class="list-item-details">
+                  <p class="main-copy">От 4000 р.</p>
                   <a class="result-btn"href="#">Забронировать</a>
                 </div>
               </div>
               <div class="result-list-rating">
-                <div class="rating-stars">
-                  <span class="stars-icon"></span>
-                </div>
+                <div class="rating-stars"></div>
                 <div class="rating-description">
                   Рейтинг: 9,2
                 </div>
