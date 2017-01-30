@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
@@ -32,11 +32,11 @@
           </a>
         </div>
       </header>
-        <main class="container">
+        <main class="main-container">
           <section class="main-filter">
             <form class="filter-forms" action="#" method="post">
               <div class="filter-forms-checkbox">
-                <h2 class="main-headline">Инфраструктура:</h2>
+                <h2 class="forms-headline">Инфраструктура:</h2>
                 <input type="checkbox" name="pool" value="Бассейн" id="checkbox-pool" checked>
                 <label for="checkbox-pool">Бассейн</label>
                 <input type="checkbox" name="parking" value="Парковка" id="checkbox-parking" checked>
@@ -45,7 +45,7 @@
                 <label for="checkbox-wifi">Wi-Fi</label>
               </div>
               <div class="filter-forms-checkbox">
-                <h2 class="main-headline">Тип жилья:</h2>
+                <h2 class="forms-headline">Тип жилья:</h2>
                 <input type="checkbox" name="hotel" value="Гостиница" id="checkbox-hotel" checked>
                 <label for="checkbox-hotel">Гостиница</label>
                 <input type="checkbox" name="motel" value="Мотель" id="checkbox-motel" checked>
@@ -54,7 +54,7 @@
                 <label for="checkbox-apartments">Апартаменты</label>
               </div>
               <div class="filter-forms-price">
-                <h2 class="main-headline">Стоимость в сутки:</h2>
+                <h2 class="forms-headline">Стоимость в сутки:</h2>
                 <div class="price-range">
                   <label for="range-from">От</label>
                   <input type="text" name="range-from" value="0" id="range-from">
@@ -101,7 +101,7 @@
                 <img src="img/amara_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2 class="main-headline">
+                <h2 class="details-headline">
                   <a href="#">Amara resort &#38; spa</a>
                 </h2>
                 <div class="list-item-details">
@@ -125,7 +125,7 @@
                 <img src="img/desert_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2 class="main-headline">
+                <h2 class="details-headline">
                   <a href="#">Desert quail inn</a>
                 </h2>
                 <div class="list-item-details">
@@ -149,7 +149,7 @@
                 <img src="img/villas_img_small.jpg" width="135" height="90" alt="Фотография гостиницы">
               </div>
               <div class="result-list-item-details">
-                <h2 class="main-headline">
+                <h2 class="details-headline">
                   <a href="#">Villas at Poco Diablo</a>
                 </h2>
                 <div class="list-item-details">
@@ -171,7 +171,9 @@
           </section>
         </main>
       <footer class="main-footer">
-        <span class="footer-hashtag">#visitsedona</span>
+        <div class="footer-hashtag">
+          #visitsedona
+        </div>
         <div class="footer-social">
           <a class="btn social-btn-vk" href="#">Вконтакте</a>
           <a class="btn social-btn-fb" href="#">Фейсбук</a>
