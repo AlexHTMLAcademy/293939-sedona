@@ -2,26 +2,167 @@ body {
   font-family: 'PT Sans', sans-serif;
   color: #000000;
   background-color: #f2f2f2;
+  margin: 0;
 }
 
 h1 {
   font-size: 21px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 26px;
 }
 
 h2 {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   line-height: 21px;
-  color: #fff;
+  color: #000000;
 }
 
 p {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 400;
   text-transform: uppercase;
   line-height: 24px;
 }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Header */
+
+.main-header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-navigation-item {
+  display: inline-block;
+  width: 240px;
+  vertical-align: middle;
+}
+
+.main-navigation-item:nth-child(2) {
+  margin-right: 240px;
+}
+
+.navigation-items {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.navigation-items a {
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.main-header-logo {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 138px;
+  margin-left: -69px;
+}
+
+/* Main */
+
+.jumbotron {
+  display: block;
+  min-height: 508px;
+  width: 1200px;
+  background-image: url("../img/jumbotron_main.jpg");
+  background-repeat: no-repeat;
+}
+
+.jumbotron-copy {
+  position: absolute;
+  left: 50%;
+  margin-top: 76px;
+  margin-left: -235px;
+}
+
+.jumbotron-bottom {
+  margin-top: 451px;
+}
+
+.description {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.main-service {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.service-item {
+  text-align: center;
+  vertical-align: top;
+  display: inline-block;
+  width: 390px;
+  padding: 0;
+}
+
+.main-CTA {
+
+}
+
+.main-CTA .main-headline, .main-CTA .main-copy {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.main-map {
+  width: 1200px;
+  height: 593px;
+}
+
+/* Footer */
+
+.main-footer {
+  position: relative;
+  width: 1200px;
+}
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-hashtag {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+
+.footer-social {
+  float: left;
+  width: 400px;
+  text-align: center;
+}
+
+.footer-copyright {
+  float: right;
+  width: 400px;
+  text-align: center;
