@@ -28,6 +28,7 @@ p {
 }
 
 .container {
+  position: relative;
   width: 1200px;
   margin: 0 auto;
   background-color: #fff;
@@ -116,23 +117,20 @@ p {
   display: flex;
   padding-top: 100px;
   padding-bottom: 100px;
-  justify-content: space-around;
 }
 
 .service-item {
   text-align: center;
   vertical-align: top;
-  width: 390px;
+  width: 400px;
 }
 
 .features-blocks {
   display: flex;
-  width: 1200px;
 }
 
 .main-features-block {
   display: flex;
-  width: 1200px;
   text-align: center;
   min-height: 256px;
   align-self: flex-start;
@@ -140,6 +138,7 @@ p {
 
 .main-features-item-reverse {
   order: 2;
+  width: 400px;
 }
 
 .main-features-item-image-reverse {
@@ -166,8 +165,19 @@ p {
   height: 256px;
 }
 
+.main-headline {
+  width: 115px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.main-copy {
+  width: 300px;
+  margin: 0 auto;
+}
+
 .main-CTA {
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .main-CTA .main-headline, .main-CTA .main-copy {
@@ -195,13 +205,12 @@ p {
 }
 
 .main-map {
-  width: 1200px;
   height: 593px;
 }
 
 /* Catalog. Content */
 
-.main-container {
+.main-filter {
     display: block;
     min-height: 218px;
     width: 1200px;
@@ -216,7 +225,6 @@ p {
 
 .main-filter-ouptup {
   display: flex;
-  margin-top: 150px;
   align-items: center;
 }
 
@@ -240,15 +248,10 @@ p {
 /* Main page + Catalog. Footer */
 
 .main-footer {
-  position: relative;
-  width: 1200px;
-}
-
-.footer-container {
-  position: absolute;
-  bottom: 0;
   display: flex;
-  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
   padding-top: 50px;
   padding-bottom: 50px;
   background: rgba(255, 255, 255, 0.9);
@@ -267,3 +270,4 @@ p {
 .footer-copyright {
   width: 400px;
   text-align: center;
+}
