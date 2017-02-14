@@ -120,9 +120,8 @@ p {
 }
 
 .service-item {
-  text-align: center;
-  vertical-align: top;
   width: 400px;
+  text-align: center;
 }
 
 .features-blocks {
@@ -132,8 +131,6 @@ p {
 .main-features-block {
   display: flex;
   text-align: center;
-  min-height: 256px;
-  align-self: flex-start;
 }
 
 .main-features-item-reverse {
@@ -166,9 +163,8 @@ p {
 }
 
 .main-headline {
-  width: 115px;
   margin: 0 auto;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .main-copy {
@@ -211,9 +207,7 @@ p {
 /* Catalog. Content */
 
 .main-filter {
-    display: block;
     min-height: 218px;
-    width: 1200px;
     background-image: url("../img/catalog_jumbotron.jpg");
     background-repeat: no-repeat;
   }
@@ -241,8 +235,33 @@ p {
 }
 
 .filter-result-list-item {
-  display: flex;
-  justify-content: space-between;
+
+}
+
+.list-item-details {
+  display: inline-block;
+}
+
+.result-list-item-image {
+  float: left;
+}
+
+.result-list-item-details {
+  float: left;
+}
+
+.result-list-rating {
+  float: right;
+}
+
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.filter-result-list-item {
+  margin-bottom: 50px;
 }
 
 /* Main page + Catalog. Footer */
@@ -255,6 +274,10 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.inner {
+  position:relative;
 }
 
 .footer-hashtag {
