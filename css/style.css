@@ -414,7 +414,7 @@ p {
 }
 
 .inner {
-  position:sticky;
+  position: static;
 }
 
 .footer-hashtag {
