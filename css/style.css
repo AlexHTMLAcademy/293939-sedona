@@ -365,6 +365,39 @@ p {
   width: 100%;
 }
 
+.form-block-people {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 220px;
+}
+
+.small input {
+  padding-left: 15px
+}
+
+.small::before{
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 3px;
+  background-image: url("../img/minus_default.png");
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  padding: 15px 13px;
+}
+
+.small::after{
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 3px;
+  background-image: url("../img/plus_default.png");
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  padding: 15px 13px;
+}
+
 .main-booking-form-from {
   border: none;
 }
@@ -437,7 +470,6 @@ p {
 }
 
 .rating-stars {
-  display: block;
   position: absolute;
   right: 0;
   width: 90px;
@@ -483,15 +515,6 @@ p {
 .divider {
   border-bottom: 1px solid #e5e5e5;
 }
-
-/*.ouptup-order-item a::before {
-  content: " ";
-  display: inline-block;
-  width: 11px;
-  height: 10px;
-  background-image: url("../img/arrow_down_default.png");
-  background-repeat: no-repeat;
-}*/
 
 .ouptup-summary-list {
   display: flex;
@@ -545,9 +568,10 @@ p {
 }
 
 .result-list-item-details .result-btn {
+  display: block;
   color: #fff;
   background-color: #81b3d2;
-  padding: 5px 17px;
+  padding: 6px 17px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -562,9 +586,10 @@ p {
 }
 
 .result-list-item-details .result-btn-book {
+  display: block;
   color: #fff;
   background-color: #766357;
-  padding: 5px 17px;
+  padding: 6px 17px;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -580,9 +605,11 @@ p {
 
 .rating-description {
   background-color: #f2f2f2;
-  padding: 5px 15px;
+  width: 120px;
   margin-top: 60px;
   color: #666666;
+  text-align: center;
+  padding: 6px 0;
 }
 
 .details-headline {
@@ -601,7 +628,7 @@ p {
 
 .list-item-details .main-copy {
   width: auto;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .result-list-rating {
