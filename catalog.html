@@ -37,45 +37,45 @@
           <div class="filter-forms-checkbox">
             <h2 class="forms-headline">Инфраструктура:</h2>
             <div class="checkbox-block">
-              <input type="checkbox" name="pool" value="Бассейн" id="checkbox-pool" checked>
+              <input type="checkbox" name="pool" value="Бассейн" id="checkbox-pool">
               <label for="checkbox-pool">Бассейн</label>
             </div>
             <div class="checkbox-block">
-              <input type="checkbox" name="parking" value="Парковка" id="checkbox-parking" checked>
+              <input type="checkbox" name="parking" value="Парковка" id="checkbox-parking">
               <label for="checkbox-parking">Парковка</label>
             </div>
             <div class="checkbox-block no-margin">
-              <input type="checkbox" name="wifi" value="Wi-Fi" id="checkbox-wifi" checked>
+              <input type="checkbox" name="wifi" value="Wi-Fi" id="checkbox-wifi">
               <label for="checkbox-wifi">Wi-Fi</label>
             </div>
           </div>
           <div class="filter-forms-checkbox">
             <h2 class="forms-headline">Тип жилья:</h2>
             <div class="checkbox-block">
-              <input type="checkbox" name="hotel" value="Гостиница" id="checkbox-hotel" checked>
+              <input type="checkbox" name="hotel" value="Гостиница" id="checkbox-hotel">
               <label for="checkbox-hotel">Гостиница</label>
             </div>
             <div class="checkbox-block">
-              <input type="checkbox" name="motel" value="Мотель" id="checkbox-motel" checked>
+              <input type="checkbox" name="motel" value="Мотель" id="checkbox-motel">
               <label for="checkbox-motel">Мотель</label>
             </div>
             <div class="checkbox-block no-margin">
-              <input type="checkbox" name="apartments" value="Апартаменты" id="checkbox-apartments" checked>
+              <input type="checkbox" name="apartments" value="Апартаменты" id="checkbox-apartments">
               <label for="checkbox-apartments">Апартаменты</label>
             </div>
           </div>
-          <div class="filter-forms-price">
+          <div class="filter-range">
             <h2 class="forms-headline">Стоимость в сутки:</h2>
-            <div class="price-range">
-              <label for="range-from">От</label>
-              <input type="text" name="range-from" value="0" id="range-from">
-              <label for="range-till">До</label>
-              <input type="text" name="range-till" value="4000" id="range-till">
+            <div class="price-controls">
+              <label class="min-price">От <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">До <input type="text" name="max-price" value="3000"></label>
             </div>
-            <div class="price-slider">
-              <div class="slider-bar"></div>
-              <div class="slider-selector slider-selector-min"></div>
-              <div class="slider-selector slider-selector-max"></div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
             </div>
             <button class="button-show" type="submit" name="show">Показать</button>
           </div>
